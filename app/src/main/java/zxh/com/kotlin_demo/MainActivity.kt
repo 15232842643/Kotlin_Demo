@@ -9,7 +9,6 @@ import org.jetbrains.anko.sdk25.coroutines.onClick
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
         verticalLayout {
             button("客官请点菜谱") {
                 textColor = Color.BLUE
