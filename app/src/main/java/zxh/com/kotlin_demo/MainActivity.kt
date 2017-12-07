@@ -11,7 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         verticalLayout {
             button("客官请点菜谱") {
-                textColor = Color.BLUE
+                backgroundResource=Color.TRANSPARENT
+                textColor = Color.RED
                 textSize = 24.0f
                 onClick {
                     val seleList = listOf("西红柿", "红烧肉", "土豆丝","微辣火锅","干锅酱鸭","干锅土豆片")
